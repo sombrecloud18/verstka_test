@@ -72,16 +72,7 @@
     color: var(--accent-color);
 }
 
-@media (max-width: 1400px) {
-    .posts {
-        gap: 20px;
-    }
-    .news {
-        margin: 40px;
-    }
-}
-
-@media (max-width: 1200px) {
+@media (max-width: 1399px) {
     .blog-slogan {
         font-size: 48px;
     }
