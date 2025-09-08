@@ -1,0 +1,146 @@
+@media (max-width: 1024px) {
+  .levels {
+    gap: 24px;
+  }
+  
+  .card {
+    width: 320px;
+    height: 340px;
+    padding: 24px;
+  }
+  
+  .badge {
+    width: 56px;
+    height: 56px;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .badge svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .title {
+    font-size: 32px;
+    margin: 20px 0 6px 76px;
+  }
+  
+  .subtitle {
+    font-size: 24px;
+  }
+  
+  .req {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 24px 16px;
+  }
+
+  .card {
+    width: calc(50%-30px);
+    height: auto;
+    min-height: 320px;
+    
+  }
+  
+  .title {
+    margin: 18px 0 6px 70px;
+    font-size: 28px;
+  }
+  
+  .subtitle {
+    font-size: 22px;
+    margin: 8px 0 12px;
+  }
+  
+  .req {
+    font-size: 16px;
+    margin: 6px 0 18px;
+  }
+  
+  .muted {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 16px 12px;
+  }
+  
+  .levels {
+    gap: 16px;
+  }
+  
+  .card {
+    padding: 20px;
+    min-height: 300px;
+  }
+  
+  .badge {
+    width: 48px;
+    height: 48px;
+    top: 16px;
+    left: 16px;
+  }
+  
+  .badge svg {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin: 16px 0 4px 60px;
+  }
+  
+  .subtitle {
+    font-size: 20px;
+    margin: 6px 0 10px;
+  }
+  
+  .req {
+    font-size: 15px;
+    gap: 10px;
+  }
+  
+  .req-item .icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+  }
+  
+  .muted {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 360px) {
+  .card {
+    padding: 16px;
+  }
+  
+  .badge {
+    width: 44px;
+    height: 44px;
+    top: 14px;
+    left: 14px;
+  }
+  
+  .title {
+    font-size: 22px;
+    margin: 14px 0 4px 54px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+  }
+  
+  .req {
+    font-size: 14px;
+  }
+}
