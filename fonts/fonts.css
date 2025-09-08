@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Manrope';
+    src: url(./Manrope-VariableFont_wght.ttf) format('truetype');
+    font-display: swap;
+    font-weight: 400 700;
+}
+
+@font-face {
+    font-family: "Open-Sans";
+    src: url(./OpenSans-VariableFont_wdth\,wght.ttf) format('truetype');
+    font-display: swap;
+    font-weight: 400 700;
+}
